@@ -14,4 +14,6 @@ app.use(cors());
 
 require('apis-endpoints-middleware')(app);
 
-app.listen(3000);
+app.listen(3100,function(){
+	console.log('Server started on port 3100')
+});
