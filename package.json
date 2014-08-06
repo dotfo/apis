@@ -1,53 +1,20 @@
 {
   "name": "apis.is",
-  "version": "0.3.0",
   "author": {
     "name": "Kristján Ingi Mikaelsson",
     "email": "kristjanmik@gmail.com"
   },
-  "description": "A json wrapper around publicly open data in Iceland",
+  "description": "A json wrapper around publicly open data",
   "repository": {
     "type": "git",
     "url": "https://github.com/kristjanmik/apis.git"
   },
-  "contributors": [
-    {
-      "name": "Arnór Heiðar Sigurðsson",
-      "email": "arnorhs@gmail.com"
-    },
-    {
-      "name": "Ragnar Þór Valgeirsson (rthor)",
-      "email": "ragnar.valgeirsson@gmail.com",
-      "url": "http://rthor.is"
-    },
-    {
-      "name": "Baldur Már Helgason",
-      "email": "baldur.helgason@gmail.com"
-    },
-    {
-      "name": "Benedikt D Valdez (benediktvaldez)",
-      "email": "benediktvaldez@gmail.com",
-      "url": "http://bdvs.info"
-    }
-  ],
   "dependencies": {
-    "file": "~0.2.1",
-    "isn2wgs": "0.0.2",
     "underscore": "~1.5.2",
-    "moment": "~2.1.0",
-    "xml2js": "~0.2.8",
-    "request": "~2.27.0",
-    "scraper": "0.0.9",
-    "jquery": "~1.8.3",
     "redis": "~0.8.4",
-    "xregexp": "~2.0.0",
-    "cheerio": "~0.12.4",
     "mocha": "~1.15.1",
-    "express": "~3.4.7",
-    "apis-helpers": "0.0.1"
-  },
-  "scripts": {
-    "test": "node_modules/mocha/bin/mocha test/integration",
-    "unit-test": "node_modules/mocha/bin/mocha test/unit"
+    "express": "*",
+    "apis-endpoints-middleware": "~0.1.0",
+    "express-simple-cors": "~0.1.0"
   }
 }
