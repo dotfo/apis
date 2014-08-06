@@ -14,7 +14,7 @@
     "redis": "~0.8.4",
     "mocha": "~1.15.1",
     "express": "*",
-    "apis-endpoints-middleware": "~0.1.0",
+    "apis-endpoints-middleware": "*",
     "express-simple-cors": "~0.1.0"
   }
 }
