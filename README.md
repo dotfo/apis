@@ -1,10 +1,11 @@
-# [ApiFO.co](http://apifo.co) - Faroese for of apis.is
+# [ApiFO.co](http://apifo.co) - Faroese fork of apis.is
 
 [Waffle.io project management](https://waffle.io/dotfo/apis)
 
 ##Maintainers
 
 [@ragnar123](https://github.com/ragnar123)
+
 Gunnar Johildarson
 
 
